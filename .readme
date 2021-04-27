@@ -1,0 +1,16 @@
+1st Discord Bot Used To Respond To Simple Commands
+
+Set Up
+    - Get your tenor api key (https://tenor.com/developer/keyregistration)
+    - Create your discord application (https://discord.com/developers/applications)
+        - Customize and create discord Bot
+        - Copy token for discord Bot
+    - Navigate to the discord channel you would like your bot to operate on
+        - Making sure "Developer Mode" is turned on in -> Advanced Settings 
+        - Right click the channel and copy the unique channel ID
+Commands
+    - !boy
+        Responds with a random reply from replies array
+    - !gif  
+        Responds with default (basketball) tenor gif search
+        Otherwise, user inputted keywords associated with !gif message

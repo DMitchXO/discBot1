@@ -1,3 +1,4 @@
+/* Requires fetch command
 const fetch = require('node-fetch');
 
 // !gif default
@@ -17,3 +18,4 @@ let json = await response.json();
 const index = Math.floor(Math.random() * json.results.length);
 msg.channel.send(json.results[index].url);
 msg.channel.send("GIF from Tenor: " + keywords);
+*/
